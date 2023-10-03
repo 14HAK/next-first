@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Reviw = () => {
-  return <div className='text-4xl'>Reviw Page</div>;
+const Review = () => {
+  return <div className='text-4xl'>Review Page</div>;
 };
 
-export default Reviw;
+export default Review;
