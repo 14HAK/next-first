@@ -1,9 +1,12 @@
+import './globals.css';
+
 export default function RootLayout({ children }) {
   return (
     <html>
       <body>
-        <p>first page only layout</p>
-        {children}
+        <header>[header]</header>
+        <main>{children}</main>
+        <footer>[footer]</footer>
       </body>
     </html>
   );
