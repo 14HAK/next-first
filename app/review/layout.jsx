@@ -1,6 +1,13 @@
 import Link from 'next/link';
 import React from 'react';
 
+export const metadata = {
+  title: {
+    default: 'review-layout',
+    template: `%s | review-layouts`,
+  },
+};
+
 const ReviewLayout = ({ children }) => {
   return (
     <>

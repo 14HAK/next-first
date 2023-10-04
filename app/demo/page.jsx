@@ -1,5 +1,9 @@
 import React from 'react';
 
+export const metadata = {
+  title: 'demo',
+};
+
 const DemoPage = () => {
   return (
     <section className='p-3 border border-red-300 bg-amber-300'>

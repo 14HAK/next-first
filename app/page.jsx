@@ -1,3 +1,8 @@
+//by default:
+// export const metadata = {
+//   title: 'websiteName | landing page',
+// };
+
 export default function Home() {
   return (
     <div>

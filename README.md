@@ -13,4 +13,6 @@
 7. customize next js aliases for import shortly , ignored [./, ../] - like this path.
 8. fetch data with asynchronously [server component fetch].
 9. now fetch dynamic data using nest ja dynamic route, [slug] or [...slug].
-10.
+10. set up meta data [regular way], [title template way], and [dynamic way].
+11. set favicon.ico in the app root folder for website [favicon].
+12.

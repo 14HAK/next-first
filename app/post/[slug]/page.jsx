@@ -7,6 +7,13 @@ const fetchDynamicPost = async (id) => {
   return singlePost;
 };
 
+//dynamic metadata title set:
+export const generateMetadata = async ({ params }) => {
+  return {
+    title: `post-page: ${params?.slug}`,
+  };
+};
+
 const SinglePost = async ({ params }) => {
   const slugid = await params?.slug;
   const singlePost = await fetchDynamicPost(slugid);

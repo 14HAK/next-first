@@ -27,6 +27,15 @@ const Card = ({ post }) => {
           </Link>
           ...
         </span>
+        <span>
+          <Link
+            href={`post/${id}/multiple-slug/query`}
+            className='text-orange-400 hover:text-orange-600 underline hover:no-underline'
+          >
+            Read more
+          </Link>
+          ...
+        </span>
       </p>
     </section>
   );
