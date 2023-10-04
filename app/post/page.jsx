@@ -9,7 +9,6 @@ const fetchPost = async () => {
 
 const Post = async () => {
   const post = await fetchPost();
-  console.log(post[0]);
 
   return (
     <div className='grid grid-cols-4 gap-5 p-5'>

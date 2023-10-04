@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Card = ({ post }) => {
@@ -14,7 +15,19 @@ const Card = ({ post }) => {
       <h4 className='text-2xl text-slate-600 capitalize mb-1 font-semibold underline'>
         {title}...
       </h4>
-      <p className='font-normal text-slate-500 lowercase'>{body}...</p>
+      <p className='font-normal text-slate-500 lowercase'>
+        {body}...
+        <br />
+        <span>
+          <Link
+            href={`post/${id}`}
+            className='text-orange-400 hover:text-orange-600 underline hover:no-underline'
+          >
+            Read more
+          </Link>
+          ...
+        </span>
+      </p>
     </section>
   );
 };
