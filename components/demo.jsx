@@ -1,4 +1,12 @@
+'use client';
+
 import React from 'react';
+
+const handleClientBtn = () => {
+  console.log(
+    'handle client component! app/demo [server] call this Demp [client] component, with click handler and state management useState.'
+  );
+};
 
 const Demo = () => {
   return (
@@ -12,7 +20,10 @@ const Demo = () => {
       <p className='font-normal text-slate-500 lowercase'>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, tenetur!
       </p>
-      <button className='py-1 px-5 rounded-md bg-slate-500 text-slate-100 hover:bg-slate-100 hover:text-slate-500 duration-100 hover:shadow-slate-500 border border-transparent hover:border hover:border-amber-600 capitalize mt-2'>
+      <button
+        onClick={handleClientBtn}
+        className='py-1 px-5 rounded-md bg-slate-500 text-slate-100 hover:bg-slate-100 hover:text-slate-500 duration-100 hover:shadow-slate-500 border border-transparent hover:border hover:border-amber-600 capitalize mt-2'
+      >
         click me
       </button>
     </section>

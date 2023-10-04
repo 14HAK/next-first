@@ -15,4 +15,5 @@
 9. now fetch dynamic data using nest ja dynamic route, [slug] or [...slug].
 10. set up meta data [regular way], [title template way], and [dynamic way].
 11. set favicon.ico in the app root folder for website [favicon].
-12.
+12. server component [app/demo] call the [Demo.jsx] server component. [right way] [without handle function and state management system].
+13. server component [app/demo] call the [Demo.jsx] client component. [right way] [with handle function and state management system].
