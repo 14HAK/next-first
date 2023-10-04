@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import More from './more';
 
 const Card = ({ post }) => {
   let { id, title, body } = post;
@@ -12,9 +13,11 @@ const Card = ({ post }) => {
       <h1 className='text-3xl text-slate-900 uppercase mb-3 font-bold'>
         id: {id}
       </h1>
-      <h4 className='text-2xl text-slate-600 capitalize mb-1 font-semibold underline'>
-        {title}...
-      </h4>
+      <More>
+        <h4 className='text-2xl text-slate-600 capitalize mb-1 font-semibold underline'>
+          {title}...
+        </h4>
+      </More>
       <p className='font-normal text-slate-500 lowercase'>
         {body}...
         <br />
