@@ -38,6 +38,12 @@ const Navbar = () => {
       >
         post
       </Link>
+      <Link
+        href={'/demo'}
+        className='text-slate-100 hover:text-red-500 hover:underline'
+      >
+        Demo
+      </Link>
     </nav>
   );
 };
