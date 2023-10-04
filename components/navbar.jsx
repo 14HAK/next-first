@@ -24,6 +24,12 @@ const Navbar = () => {
       >
         review
       </Link>
+      <Link
+        href={'/post'}
+        className='text-slate-100 hover:text-red-500 hover:underline'
+      >
+        post
+      </Link>
     </nav>
   );
 };

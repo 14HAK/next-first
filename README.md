@@ -11,4 +11,5 @@
 5. use Next.js Link, and prefetch for navigate page by page or any navigation.
 6. create new component based folder called app/components.
 7. customize next js aliases for import shortly , ignored [./, ../] - like this path.
-8.
+8. fetch data with asynchronously [server component fetch].
+9.
